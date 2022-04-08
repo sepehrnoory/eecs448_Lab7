@@ -1,0 +1,12 @@
+I think that the enqueue method was the only intentional bug
+  implemented in this Queue class.
+
+  I came to this conclusion because the test that I ran indicated that
+    Enqueue would add the integer to the queue, however it would be inserted
+    at the front of the queue and not the back, essentially creating a data
+    structure that more resembled a stack than a Queue
+
+  The test that made this clear for me specifically was testEnqueueFront and
+    testDequeueBack because they both showed that the newly added integers were
+    appearing at the front of the queue and not the back as they were supposed
+    to
